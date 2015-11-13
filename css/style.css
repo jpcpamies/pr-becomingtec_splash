@@ -140,12 +140,23 @@ a {
 html {
   font-size: 80%;
 }
+body {
+  color: #4a4a4a;
+}
+.headline2 {
+  text-align: center;
+}
 .privacidad {
   background: #fff;
 }
 .header2 {
-  background-color: #1a2330;
+  background-color: #1f2c3a;
   padding: 16px;
+}
+.top2 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 html {
   font-size: 80%;
@@ -187,7 +198,6 @@ body {
 }
 .top {
   padding-top: 48px;
-  max-width: 360px;
 }
 .middle {
   padding-top: 8px;
@@ -230,7 +240,7 @@ body {
   border: none;
 }
 .footer {
-  padding-bottom: 144px;
+  padding-bottom: 128px;
 }
 /* small */
 @media only screen and (min-width: 480px) {
