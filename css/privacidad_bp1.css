@@ -1,0 +1,98 @@
+/*------------------------------------*    $IMPORTS
+\*------------------------------------*/
+/*------------------------------------*    $UTILIDADES
+\*------------------------------------*/
+/*------------------------------------*    $TIPOGRAFÍA
+\*------------------------------------*/
+html {
+  font-size: 80%;
+}
+/*------------------------------------*    $GRID Y MÁRGENES
+\*------------------------------------*/
+/*------------------------------------*    $LAYOUT
+\*------------------------------------*/
+.privacidad {
+  background: #fff;
+}
+.wrapper {
+  padding: 16px;
+}
+.logo {
+  height: 50px;
+  width: auto;
+}
+.main {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+}
+.top {
+  padding-top: 48px;
+  max-width: 360px;
+}
+.middle {
+  padding-top: 8px;
+}
+.bottom {
+  padding-top: 48px;
+  padding-bottom: 16px;
+}
+.headline {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.body {
+  font-size: 1rem;
+}
+.form-container {
+  background-color: rgba(0,0,0,0.35);
+  border-radius: 5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+.form--copy {
+  color: primary;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-bottom: 16px;
+}
+.form .form--input {
+  color: body;
+  width: 92%;
+  height: 35px;
+  border: none;
+  margin-bottom: 16px;
+  border-radius: 3px;
+  padding-left: 16px;
+}
+.form .form--submit {
+  background-color: primary;
+  border-radius: 3px;
+  height: 35px;
+  width: 100px;
+  border: none;
+}
+.gradient {
+
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5e5e5+0,000000+100&0+0,0.5+100 */
+		background: -moz-linear-gradient(top, rgba(229,229,229,0) 0%, rgba(0,0,0,0.5) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(229,229,229,0) 0%,rgba(0,0,0,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(229,229,229,0) 0%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e5e5e5', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
+  width: 100%;
+  height: 30vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5e5e5+0,000000+100&0+0,0.5+100 */
+		background: -moz-linear-gradient(top, rgba(229,229,229,0) 0%, rgba(0,0,0,0.5) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(229,229,229,0) 0%,rgba(0,0,0,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(229,229,229,0) 0%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e5e5e5', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
