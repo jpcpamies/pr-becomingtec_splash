@@ -92,8 +92,8 @@ img {
 }
 @font-face {
   font-family: 'icomoon';
-  src: url("fonts/icomoon.eot?n5xl6m");
-  src: url("fonts/icomoon.eot?n5xl6m#iefix") format('embedded-opentype'), url("fonts/icomoon.ttf?n5xl6m") format('truetype'), url("fonts/icomoon.woff?n5xl6m") format('woff'), url("fonts/icomoon.svg?n5xl6m#icomoon") format('svg');
+  src: url("../fonts/icomoon.eot?n5xl6m");
+  src: url("../fonts/icomoon.eot?n5xl6m#iefix") format('embedded-opentype'), url("../fonts/icomoon.ttf?n5xl6m") format('truetype'), url("../fonts/icomoon.woff?n5xl6m") format('woff'), url("../fonts/icomoon.svg?n5xl6m#icomoon") format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -141,7 +141,7 @@ html {
   font-size: 80%;
 }
 body {
-  color: #4a4a4a;
+  color: #37474f;
 }
 .headline2 {
   text-align: center;
@@ -150,13 +150,82 @@ body {
   background: #fff;
 }
 .header2 {
-  background-color: #1f2c3a;
+  background-color: #37474f;
   padding: 16px;
 }
 .top2 {
   padding-top: 32px;
   padding-bottom: 32px;
   border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.terms-intro {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.terms-hear {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.terms-subhear {
+  color: #898989;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  line-height: 1.7rem;
+  font-weight: 500;
+}
+.module-header {
+  margin-bottom: 16px;
+}
+.module-header--header {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  padding-top: 16px;
+}
+.module-header--body {
+  color: #191919;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  line-height: 1.7rem;
+  font-weight: 500;
+}
+.module-main {
+  display: table;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.module-main .left {
+  display: table-cell;
+  padding-right: 16px;
+  padding-left: 8px;
+}
+.module-main .rigth {
+  display: table-cell;
+  vertical-align: top;
+}
+.module-main .rigth h4 {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: bold;
+}
+.module-main .rigth p {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  font-weight: 500;
+  color: #898989;
+}
+.envelope:before {
+  content: "\e902";
+  font-family: icomoon;
+  font-size: 2.5rem;
+}
+.user:before {
+  content: "\e905";
+  font-family: icomoon;
+  font-size: 2.5rem;
 }
 html {
   font-size: 80%;
@@ -169,7 +238,7 @@ html {
   font-size: 1rem;
 }
 body {
-  background-color: #4a4a4a;
+  background-color: #37474f;
   background-image: url("../img/bg.jpg");
   -webkit-background-size: auto 100vh;
   -moz-background-size: auto 100vh;
@@ -219,14 +288,14 @@ body {
   margin: 0 auto;
 }
 .form--copy {
-  color: rgba(255,255,255,0.7);
+  color: #d3d3d3;
   font-size: 1.2rem;
   line-height: 1.4rem;
   font-weight: bold;
   padding-bottom: 16px;
 }
 .form .form--input {
-  color: #9b9b9b;
+  color: #191919;
   width: 92%;
   height: 35px;
   border: none;
@@ -236,16 +305,6 @@ body {
   padding-left: 16px;
   padding-top: 0;
   padding-bottom: 0;
-}
-.form .form--input:hover~.form--submit {
-  -webkit-box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
-  box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
-  -webkit-transform: translate(0px, -2px);
-  -moz-transform: translate(0px, -2px);
-  -o-transform: translate(0px, -2px);
-  -ms-transform: translate(0px, -2px);
-  transform: translate(0px, -2px);
-  -webkit-transform: translate(0px, -2px);
 }
 .form .form--submit {
   background-color: #8fc459;
@@ -275,13 +334,17 @@ body {
 .footer {
   padding-bottom: 128px;
 }
+.footer-copy {
+  color: #d3d3d3;
+  font-weight: bold;
+}
 /* small */
 @media only screen and (min-width: 680px) {
   html {
     font-size: 100%;
   }
   body {
-    background-color: #4a4a4a;
+    background-color: #37474f;
     background-image: url("../img/bg@2x.jpg");
     -webkit-background-size: auto 100vh;
     -moz-background-size: auto 100vh;
