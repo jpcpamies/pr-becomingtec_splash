@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#btn").sddClass("btn-presed")});

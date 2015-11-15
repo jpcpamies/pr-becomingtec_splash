@@ -149,6 +149,9 @@ body {
 .privacidad {
   background: #fff;
 }
+.main2 {
+  margin-bottom: 80px;
+}
 .header2 {
   background-color: #37474f;
   padding: 16px;
@@ -175,6 +178,9 @@ body {
   line-height: 1.7rem;
   font-weight: 500;
 }
+.module {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
 .module-header {
   margin-bottom: 16px;
 }
@@ -195,7 +201,6 @@ body {
 .module-main {
   display: table;
   padding-bottom: 32px;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 .module-main .left {
   display: table-cell;
@@ -236,6 +241,7 @@ html {
 }
 .body {
   font-size: 1rem;
+  margin-bottom: 1rem;
 }
 body {
   background-color: #37474f;
@@ -297,6 +303,7 @@ body {
 .form .form--input {
   color: #191919;
   width: 92%;
+  max-width: 270px;
   height: 35px;
   border: none;
   margin-bottom: 16px;
@@ -320,16 +327,18 @@ body {
   -o-transition: 0.1s;
   -ms-transition: 0.1s;
   transition: 0.1s;
+  -webkit-box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
 }
 .form .form--submit:hover {
-  -webkit-box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
-  box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
-  -webkit-transform: translate(0px, -2px);
-  -moz-transform: translate(0px, -2px);
-  -o-transform: translate(0px, -2px);
-  -ms-transform: translate(0px, -2px);
-  transform: translate(0px, -2px);
-  -webkit-transform: translate(0px, -2px);
+  -webkit-box-shadow: 0px 0px 1px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 1px rgba(0,0,0,0.3);
+  -webkit-transform: translate(0px, 2px);
+  -moz-transform: translate(0px, 2px);
+  -o-transform: translate(0px, 2px);
+  -ms-transform: translate(0px, 2px);
+  transform: translate(0px, 2px);
+  -webkit-transform: translate(0px, 2px);
 }
 .footer {
   padding-bottom: 128px;
@@ -340,6 +349,18 @@ body {
 }
 /* small */
 @media only screen and (min-width: 680px) {
+  html.privacidad {
+    font-size: 80%;
+  }
+  .main2 {
+    max-width: 560px;
+    margin: 0 auto;
+    margin-bottom: 160px;
+  }
+  .top2 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
   html {
     font-size: 100%;
   }
@@ -407,6 +428,7 @@ body {
     align-items: center;
   }
   .form .form--input {
+    max-width: 210px;
     margin-bottom: 0;
     margin-right: 16px;
   }
@@ -462,10 +484,10 @@ body {
     padding-bottom: 1.5rem;
     text-align: center;
   }
-  .form-input {
-    display: block;
+  .form .form--input {
+    max-width: 310px;
   }
-  .form--submit {
+  .form .form--submit {
     margin-top: 16px;
   }
   .footer {
