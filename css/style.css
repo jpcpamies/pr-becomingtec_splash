@@ -337,9 +337,15 @@ body {
 }
 .highlight {
   background-color: #8fc459;
-  color: #191919;
+  color: rgba(0,0,0,0.7);
   font-weight: 500;
-  padding: 2px;
+  padding: 1px 2px;
+}
+.enfasis {
+  font-size: 150%;
+}
+.digital {
+  font-style: italic;
 }
 /* small */
 @media only screen and (min-width: 680px) {
